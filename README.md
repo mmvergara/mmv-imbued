@@ -1,11 +1,13 @@
 # Imbued
 
-Simple account management system
+Simple accounts management system
 
+- [Color Palette](https://colorhunt.co/palette/f3efe043424222222222a39f)
 
 ## Installation
 
 ### Firebases Setup
+
 - Enable auth on Firebase and add a user
 - Create a .env file and fill it out with firebase db info and a userEmail (from the account you made earlier) <br/>
 

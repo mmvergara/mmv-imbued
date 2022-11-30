@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .link {
+    @apply text-sm py-[0.09rem] px-2 bg-cream font-semibold inline rounded-md hover:scale-105 ;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #222222;
+}
