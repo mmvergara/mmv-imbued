@@ -4,9 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
+@layer components {
   .link {
-    @apply text-sm py-[0.09rem] px-2 bg-cream font-semibold inline rounded-md hover:scale-105 ;
+    @apply text-sm py-[0.09rem] px-2 bg-cream font-semibold inline rounded-md hover:scale-105;
   }
 }
 
@@ -15,7 +15,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+html {
+  width: 100vw;
+  height: 100vh;
   background-color: #222222;
+}
+main {
+  background-color: #222222;
+
 }
